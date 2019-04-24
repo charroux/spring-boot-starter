@@ -37,6 +37,6 @@ This configuration is just a programmatic view of the property file: https://git
 
 ## The starter
 
-Finally the sarter is another project: https://github.com/charroux/spring-boot-starter/tree/master/me-spring-boot-starter
+Finally the starter is another project: https://github.com/charroux/spring-boot-starter/tree/master/me-spring-boot-starter
 
 with an empty jar file and a just gradle file: https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-starter/build.gradle
