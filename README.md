@@ -35,7 +35,7 @@ This last class is given along with the configuration: https://github.com/charro
 
 This configuration is just a programmatic view of the property file: https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-sample-app/src/main/resources/application.properties
 
-This simple example define only one auto configuration but a more realistic one will combine many autoconfiguration. All the configurations should be listed in the spring factories file : https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-autoconfigure/src/main/resources/META-INF/spring.factories
+This simple example define only one auto configuration but a more realistic one will combine many autoconfigurations. All the configurations should be listed in the spring factories file : https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-autoconfigure/src/main/resources/META-INF/spring.factories
 
 ## The starter
 
@@ -54,3 +54,11 @@ The gradle file of this main project is: https://github.com/charroux/spring-boot
 It contains only the main Spring Boot library.
 
 All the projects are configured there: https://github.com/charroux/spring-boot-starter/blob/master/settings.gradle
+
+## Build all the project
+
+Use gradlew build or ./gradlew build from a terminal opened from the root folder.
+
+Then import this multiple project inside Eclipse or Intellij and launch the main program: https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-sample-app/src/main/java/me/MeApplication.java
+
+Enjoy ;-)
