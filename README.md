@@ -35,6 +35,8 @@ This last class is given along with the configuration: https://github.com/charro
 
 This configuration is just a programmatic view of the property file: https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-sample-app/src/main/resources/application.properties
 
+This simple example define only one auto configuration but a more realistic one will combine many autoconfiguration. All the configurations should be listed in the spring factories file : https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-autoconfigure/src/main/resources/META-INF/spring.factories
+
 ## The starter
 
 Finally the starter is another project: https://github.com/charroux/spring-boot-starter/tree/master/me-spring-boot-starter
