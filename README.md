@@ -55,7 +55,7 @@ It contains only the main Spring Boot library.
 
 All the projects are configured there: https://github.com/charroux/spring-boot-starter/blob/master/settings.gradle
 
-## Build all the project
+## Build all the projects
 
 Use gradlew build or ./gradlew build from a terminal opened from the root folder.
 
