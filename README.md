@@ -43,4 +43,12 @@ with an empty jar file and a just gradle file: https://github.com/charroux/sprin
 
 ## The main project
 
-All those projects are linked together is the main one: 
+All those projects are linked together is the main one: https://github.com/charroux/spring-boot-starter
+
+Note that the sample project using the library is just there for testing purpose and it should not be part of the whole library.
+
+The gradle file of this main project is: https://github.com/charroux/spring-boot-starter/blob/master/build.gradle
+
+It contains only the main Spring Boot library.
+
+All the projects are configured there: https://github.com/charroux/spring-boot-starter/blob/master/settings.gradle
