@@ -40,3 +40,7 @@ This configuration is just a programmatic view of the property file: https://git
 Finally the starter is another project: https://github.com/charroux/spring-boot-starter/tree/master/me-spring-boot-starter
 
 with an empty jar file and a just gradle file: https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-starter/build.gradle
+
+## The main project
+
+All those projects are linked together is the main one: 
