@@ -1,0 +1,31 @@
+sourceSets {
+	main {
+		java {
+			srcDirs = [ 'src/main/java' ]
+			srcDir 'src/main/orcha'
+		}
+		groovy {
+			srcDirs = [ 'src/main/groovy' ]
+			srcDir 'src/main/orcha'
+		}
+	}
+	test {
+		java {
+			srcDirs = [ 'src/test/java' ]
+			srcDir 'src/test/orcha'
+		}
+		groovy {
+			srcDirs = [ 'src/test/groovy' ]
+			srcDir 'src/test/orcha'
+		}
+		resources {
+			srcDirs = ["src/test/resources"]
+		}
+	}
+}
+
+dependencies {
+	compile project(':me-library')
+	compile "org.springframework.boot:spring-boot-autoconfigure"
+	annotationProcessor "org.springframework.boot:spring-boot-autoconfigure-processor"
+}

@@ -1,0 +1,6 @@
+rootProject.name = 'me-starter'
+
+include 'me-library'
+include 'me-spring-boot-autoconfigure'
+include 'me-spring-boot-starter'
+include 'me-spring-boot-sample-app'
