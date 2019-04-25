@@ -28,7 +28,7 @@ Now let's have a look at the magic behind the scene.
 
 ## The auto configuration of the library
 
-The configuration of the library is in another project: https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-autoconfigure/src/main/java/MeAutoConfiguration.java
+The configuration of the library is in another project so that the library and its configuration are properly separered: https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-autoconfigure/src/main/java/MeAutoConfiguration.java
 
 It tests if the library class is present: @ConditionalOnClass(Me.class)
 And then the library is configured via properties: @EnableConfigurationProperties(MeProperties.class)
