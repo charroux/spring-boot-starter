@@ -59,7 +59,7 @@ All the projects are configured there: https://github.com/charroux/spring-boot-s
 
 ## Build all the projects
 
-Use gradlew build or ./gradlew build from a terminal opened from the root folder.
+Use gradlew build or ./gradlew build (in Linux) from a terminal opened from the root folder.
 
 Then import this multiple project inside Eclipse or Intellij and launch the main program: https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-sample-app/src/main/java/me/MeApplication.java
 
