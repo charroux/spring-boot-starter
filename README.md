@@ -18,9 +18,9 @@ Note how the library (class Me) is used in the main program (the library is inje
 
 The library is configured via a configuration file: https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-sample-app/src/main/resources/application.properties
 
-This project include a Spring Boot starter: https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-sample-app/build.gradle
+This project includ0es only a Spring Boot starter (which is the main goal of Spring Boot Starter): https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-sample-app/build.gradle
 
-Note that the library is a local library (compile project(':me-spring-boot-starter')) and once it will be distrited as a maven library, you will use it through usual maven dependency like compile('...:me-spring-boot-starter-0.0.1-SNAPSHOT').
+Note that the library is  nevertheless a local library (compile project(':me-spring-boot-starter')) and once it will be distrited as a maven library, you will use it through usual maven dependency like compile('...:me-spring-boot-starter-0.0.1-SNAPSHOT').
 
 Easy to use, isn't it ?
 
