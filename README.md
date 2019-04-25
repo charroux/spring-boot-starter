@@ -14,7 +14,7 @@ Note that this project is independent from any one.
 
 The project is there: https://github.com/charroux/spring-boot-starter/tree/master/me-spring-boot-sample-app
 
-Note how the library (class Me) is used in the main program (the library is injected with autoqired): https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-sample-app/src/main/java/me/MeApplication.java
+Note how the library (class Me) is used in the main program (the library is injected with autowired): https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-sample-app/src/main/java/me/MeApplication.java
 
 The library is configured via a configuration file: https://github.com/charroux/spring-boot-starter/blob/master/me-spring-boot-sample-app/src/main/resources/application.properties
 
